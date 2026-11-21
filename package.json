@@ -1,0 +1,12 @@
+{
+  "name": "mediprioritize-workspace",
+  "private": true,
+  "workspaces": [
+    "./mediprioritize"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=mediprioritize",
+    "build": "npm run build --workspace=mediprioritize",
+    "preview": "npm run preview --workspace=mediprioritize"
+  }
+}
